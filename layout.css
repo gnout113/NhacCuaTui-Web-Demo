@@ -1,0 +1,19 @@
+body {
+	padding: 0;
+	margin: 0;
+}
+
+.wrapper .header { grid-area: header; }
+.wrapper .main { grid-area: main; }
+.wrapper .sidebar { grid-area: sidebar; }
+.wrapper .footer { grid-area: footer; }
+
+.wrapper {
+	display: grid;
+	grid-template-areas: 'header header header header'
+						 'main main main sidebar'
+						 'footer footer footer footer';	
+	grid-column-gap: 1.5rem;
+	text-align: center;
+}
+
