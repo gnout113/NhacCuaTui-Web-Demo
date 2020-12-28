@@ -1,0 +1,165 @@
+.header ul {
+	list-style-type: none;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 0;
+	margin-bottom: 0;
+	height: 65px;
+}
+
+a{
+	text-decoration:none;
+	text-align: center;
+	font-weight: 400;
+}
+
+li {
+	padding: 7.5px
+}
+
+a:visited {
+	color: black;
+}
+
+a:active{
+	color: none;
+}
+
+.has-submenu:hover > a{
+	color: #43A1F4;
+}
+
+.header {
+	border-bottom: 1px solid #c2c2c2;
+	position: sticky;
+  	top: 0;
+  	background-color: white;
+}
+
+.header li {
+	margin: 0.5rem;
+	width: auto;
+	white-space: nowrap;
+}
+
+#phienbanmoi {
+	font-weight: bold;
+	color: #25b3fa; 
+}
+
+.search-bar {
+	border-radius: 35px;
+	background-color: #e0e0e0;
+	border:none;
+	height: 1rem;
+	width: auto;
+	font-size: 12px;
+	display: flex;
+	align-items: center;
+}
+
+.search-bar input{
+	border: none;
+	width: 14rem;
+	background-color: #e0e0e0;
+	border-radius: 35px;
+}
+.search-bar input:focus {
+	 outline: none;
+}
+
+.search-bar i {
+	margin-left: 10px;
+	padding-right: 5px; 
+}
+
+.headphone i,
+.upload i{
+	opacity: 0.5;
+}
+
+.headphone:hover i,
+.upload:hover i{
+	opacity: 1;
+	color: black;
+}
+
+.vip {
+	background-color: #ffba52;
+	border-radius: 30px;
+	display:flex;
+	justify-content: flex-end;
+	padding-left: 3rem;
+	position: relative;
+}
+
+.vip a{
+	font-weight: bold;
+	color: white;
+}
+
+.vip a i {
+	color: #00a8ff;
+	position: absolute;
+	right:75px;
+	bottom: -6px;
+}
+
+.header .has-submenu {
+	position: relative;
+}
+
+.header .has-submenu > a{
+	padding-bottom: 30px;
+}
+
+.has-submenu .submenu,
+.vip .submenu{
+	position: absolute;
+	padding: 0;
+	visibility: hidden;
+	opacity: 0;
+	background-color: white;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	top: 100%;
+	height: auto;
+	width: auto;
+	margin-top: 17px;
+	text-align: left;
+	transition: all 0.3s;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	color: black;
+	justify-content: center;
+}
+
+
+.has-submenu:hover .submenu ,
+.vip:hover .submenu{	
+	visibility: visible;
+	opacity: 1;
+}
+
+.submenu a:hover ,
+.vip .submenu a:hover{
+	color: #43A1F4;
+}
+
+.vip .submenu a {
+	color: black;
+	font-weight: 400;
+}
+
+.vip .submenu li:first-child {
+	border-bottom: 1px solid #c2c2c2; 
+}
+
+.vip .submenu {
+	border-radius: 5px;
+}
+
+.has-submenu .submenu .column-1 {
+	left: 100px;
+}

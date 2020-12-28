@@ -4,25 +4,106 @@
 	<title>NhacCuaTui</title>
 	<link rel="stylesheet" type="text/css" href="./component-0.css">
 	<link rel="stylesheet" type="text/css" href="./layout.css">
+	<link rel="stylesheet" type="text/css" href="./header.css">
+	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
 </head>
 <body>
 	<div class="wrapper">
 		<div class="header">
 			<ul>
-				<li>NCT</li>
-				<li>#phienbanmoi</li>
-				<li>Bài Hát</li>
-				<li>Playlist</li>
-				<li>Tuyển Tập</li>
-				<li>Video</li>
-				<li>BXH</li>
-				<li>Chủ Đề</li>
-				<li>Top 100</li>
-				<li>...</li>
-				<li></li>
-				<li></li>
-				<li></li>
-				<li></li>
+				<li>
+					<a href="http://127.0.0.1:8080/"><img src="./nct-logo.svg" width="64" height="40"></a>
+				</li>
+
+				<li>
+					<a href="#" id="phienbanmoi">#phienbanmoi</a>
+				</li>
+
+				<li class="has-submenu">
+					<a href="#">Bài Hát</a>
+					<!-- <div class="layout">  -->
+
+					<ul class="submenu">
+						<li><a href="#"><b>Việt Nam</b></a></li>
+						<li><a href="#">Nhạc Trẻ</a></li>
+						<li><a href="#">Trữ Tình</a></li>
+						<li><a href="#">Remix Việt</a></li>
+						<li><a href="#">Rap Việt</a></li>
+						<li><a href="#">Tiền Chiến</a></li>
+						<li><a href="#">Nhạc Trịnh</a></li>
+						<li><a href="#">Rock Việt</a></li>
+						<li><a href="#">Cách Mạng</a></li>	
+					</ul>		
+
+					<ul class="submenu column-1">
+						<li><a href="#"><b>Âu Mỹ</b></a></li>
+						<li><a href="#">Pop</a></li>
+						<li><a href="#">Rock</a></li>
+						<li><a href="">Electronica/Dance</a></li>
+						<li><a href="#">R&B/HipHop/Rap</a></li>
+						<li><a href="#">Blues/Jazz</a></li>
+						<li><a href="#">Country</a></li>
+						<li><a href="#">Latin</a></li>
+						<li><a href="#">Indie</a></li>
+						<li><a href="#">Âu Mỹ khác</a></li>
+					</ul>
+				<!-- 	</div> -->													
+				</li>
+
+				<li><a href="#">Playlist</a></li>
+				<li><a href="#">Tuyển Tập</a></li>
+				<li><a href="#">Video</a></li>
+
+				<li class="has-submenu">
+					<a href="#">BXH</a>
+					<ul class="submenu">
+						<li><a href="#">Việt Nam</a></li>
+						<li><a href="#">Âu Mỹ</a></li>
+						<li><a href="#">Hàn Quốc</a></li>
+					</ul>
+				</li>
+
+				<li><a href="#">Chủ Đề</a></li>
+
+				<li class="has-submenu">
+					<a href="#">Top 100</a>
+					<ul class="submenu">
+						<li><a href="#">Việt Nam</a></li>
+						<li><a href="#">Âu Mỹ</a></li>
+						<li><a href="#">Châu Á</a></li>
+						<li><a href="#">Không Lời</a></li>
+					</ul>
+				</li>
+
+				<li class="has-submenu more">
+					<a href="#"><i class="far fa-ellipsis-h fa-lg"></i></a>
+					<ul class="submenu">
+						<li><a href="#">Khám Phá</a></li>
+						<li><a href="#">Nghệ Sĩ</a></li>
+						<li><a href="#">Sự Kiện - TV</a></li>
+						<li><a href="#">Tin Tức Âm Nhạc</a></li>
+					</ul>
+				</li>
+
+				<li class="vip">
+					<a href="#"><i class="fas fa-chevron-circle-right fa-3x"></i>Mua VIP</a>
+					<ul class="submenu">
+						<li><a href="#">Đăng Nhập</a></li>
+						<li><a href="#">Đăng Ký</a></li>
+					</ul>
+				</li>
+
+				<li class="headphone">
+					<a href="#"><i class="fas fa-headphones fa-lg"></i></a>
+				</li>
+
+				<li class="upload">
+					<a href="#"><i class="fas fa-cloud-upload fa-lg"></i></a>
+				</li>
+
+				<li class="search-bar">
+					<i class="far fa-search"></i><input type="text" placeholder="Tìm bài hát, video, playlist, ca sĩ"/>
+				</li>
 			</ul>
 		</div>
 
@@ -31,4 +112,5 @@
 		<div class="footer">footer</div>
 	</div>
 </body>
+
 </html>
