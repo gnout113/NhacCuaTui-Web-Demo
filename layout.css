@@ -8,6 +8,7 @@ body {
 .wrapper .main { grid-area: main; }
 .wrapper .sidebar { grid-area: sidebar; }
 .wrapper .footer { grid-area: footer; }
+.wrapper .blank {grid-area: blank;}
 
 .wrapper {
 	display: grid;
