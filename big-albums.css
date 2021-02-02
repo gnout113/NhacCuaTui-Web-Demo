@@ -1,0 +1,121 @@
+/*.main .yyy {
+	border: 1px solid red;
+}
+*/
+.main .yyy .big-albums .big-album-wrapper {
+	height: 230px;
+	width: 410px;
+	position: relative;
+
+}
+
+.main .yyy .big-albums .big-album {
+	position: relative;
+	width: 410px;
+	height: 230px;
+	margin: 0;
+	padding: 0;
+	display: inline-block;
+	margin-right: ;
+}
+
+.main .yyy .big-albums .big-album .overlay{
+	background-color: rgb(0,0,0);
+	width: 410px;
+	height: 230px;
+	padding: 0;
+	margin:0;
+	position: absolute;
+	top: 0;
+	opacity: 0;
+	transition: all 0.3s;
+}
+
+.main .yyy .big-albums .big-album .count {
+	width: 152px;
+	text-align: right;
+	background: rgb(0,0,0);
+	background: linear-gradient(90deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 45%, rgba(0,0,0,0.5298494397759104) 66%, rgba(0,0,0,0.6502976190476191) 100%);
+	color: white;
+	padding-right: 5px;
+	box-sizing: border-box;
+	position: absolute;
+	right: 0;	
+	top:0;
+}
+
+.main .yyy .big-albums .big-album-wrapper:hover #play-btn {
+	opacity: 1;
+}
+
+.main .yyy .big-albums .big-album-wrapper:hover .overlay{
+	opacity: 0.3;
+}
+
+.main .yyy .big-albums .big-album #play-btn {
+	top: 90px;
+	left: 180px;
+}
+
+.main .yyy .big-albums .big-album .duration{
+	width: auto;
+	display: inline-block;
+	position: absolute;
+	background: rgba(0,0,0,0.65);
+	box-sizing: border-box;
+	text-align: center;
+	color: white;
+	font-weight: bold;
+	padding-right: 3px;
+	padding-left: 3px;
+	left: 363px;
+	top:212px;
+}	
+
+.main .yyy .big-albums .big-album-info-name,
+.main .yyy .big-albums .big-album-info-singer{
+	position: absolute;
+	height: auto;
+	width: auto;
+}
+
+.main .yyy .big-albums .big-album-info-name .big-album-name{
+	font-size: 18px;
+	font-weight: bold;
+	transition: color 0.3s;
+	color: white;
+}
+
+.main .yyy .big-albums .big-album-info-name .big-album-name:hover {
+	color: #43A1F4;
+}
+
+.main .yyy .big-albums .big-album-info-singer .big-album-singer {
+	font-size: 14px;
+	font-weight: 400;
+	transition: color 0.3s;
+	color: white;
+}
+
+.main .yyy .big-albums .big-album-info-singer .big-album-singer:hover {
+	color: #43A1F4;
+}
+
+
+.main .yyy .big-albums .big-album-info-name {
+	top: 182px;
+	margin-left: 10px;
+	text-align: center;
+}
+
+.main .yyy .big-albums .big-album-info-singer {
+	top: 200px;
+	margin-left: 10px;
+	text-align: center;
+}
+
+.main .yyy .big-albums {
+	display: flex;
+	align-items: flex-start;
+	
+}

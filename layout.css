@@ -13,9 +13,9 @@ body {
 .wrapper {
 	display: grid;
 	grid-template-areas: 'header header header header'
-						 'main main main sidebar'
+						 'main main sidebar sidebar'
 						 'footer footer footer footer';	
-	grid-column-gap: 1.5rem;
-	text-align: center;
+/*	grid-column-gap: 0.625rem;*/
+/*	text-align: center;*/
 }
 
