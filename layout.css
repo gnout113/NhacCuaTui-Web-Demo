@@ -8,14 +8,19 @@ body {
 .wrapper .main { grid-area: main; }
 .wrapper .sidebar { grid-area: sidebar; }
 .wrapper .footer { grid-area: footer; }
-.wrapper .blank {grid-area: blank;}
 
 .wrapper {
 	display: grid;
-	grid-template-areas: 'header header header header'
-						 'main main sidebar sidebar'
-						 'footer footer footer footer';	
-/*	grid-column-gap: 0.625rem;*/
-/*	text-align: center;*/
+	grid-template-columns: 1fr 1fr;
+	/*grid-auto-rows: minmax(auto, auto);*/
+	grid-gap: 20px;
+	justify-content: center;
+	grid-template-areas: "header header"
+						 "main sidebar"
+						 "footer footer";		
 }
+
+
+
+
 

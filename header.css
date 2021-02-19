@@ -92,7 +92,6 @@ input[type=text]{
 	padding-right: 0.313rem;
 	padding-top: 0.625rem;
 	position: relative;
-	margin-left: 100px;
 }
 
 .vip a{
@@ -244,9 +243,13 @@ ol {
 }
 
 #more {
-	margin-right: 2.5rem;
+	margin-right: 3.125rem;
 }
 
 .vip .submenu {
 	margin-top: 14.5px;
+}
+
+.header a{
+	margin-right: 3.5px
 }

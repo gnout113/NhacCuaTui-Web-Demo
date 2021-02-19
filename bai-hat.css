@@ -1,0 +1,60 @@
+.main .bai-hat {
+	/*border: 1px solid red;*/
+	margin-top: 40px;
+}
+
+a.song-name {
+	margin: 0;
+}
+
+.main .bai-hat .songs-wrapper .songs-column .song .song-details{
+	width: auto;
+}
+
+.main .bai-hat .songs-wrapper .songs-column .song .song-details .song-name {
+	display: block;
+	width: auto;
+}
+
+.main .bai-hat .songs-wrapper .songs-column .song {
+	display: flex;
+	width: auto;
+	height: auto;
+	padding-bottom: 5px;
+	border-bottom: 1px solid #b3b3b3;
+}
+
+.main .bai-hat .songs-wrapper .songs-column .song a:first-child {
+	margin-right: 10px;
+}
+
+.main .bai-hat .songs-wrapper .songs-column .song .song-details {
+	align-self: center;
+	line-height: 18px;
+}
+
+.main .bai-hat .songs-wrapper .songs-column .song .song-details .song-singer {
+	font-size: 12px;
+	color: #b3b3b3;
+}
+
+.main .bai-hat .songs-wrapper .songs-column .song .song-details a {
+	transition: color 0.3s;
+}
+
+.main .bai-hat .songs-wrapper .songs-column .song .song-details a:hover {
+	color: #43A1F4;
+}
+
+.main .bai-hat .songs-wrapper .songs-column .song .listener-counter {
+	align-self: center;	
+}
+
+.main .bai-hat .songs-wrapper .songs-column .song .listener-counter .song-option i {
+	color: #b3b3b3;
+}
+
+.main .bai-hat .songs-wrapper .songs-column .song .listener-counter .song-option {
+	position: absolute;
+	top:20px;
+}

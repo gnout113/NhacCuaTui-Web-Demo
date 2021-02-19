@@ -1,7 +1,8 @@
-/*.main .yyy {
-	border: 1px solid red;
+.main .yyy {
+	/*border: 1px solid red;*/
+	margin-top: 40px;
 }
-*/
+
 .main .yyy .big-albums .big-album-wrapper {
 	height: 230px;
 	width: 410px;
@@ -13,10 +14,7 @@
 	position: relative;
 	width: 410px;
 	height: 230px;
-	margin: 0;
-	padding: 0;
 	display: inline-block;
-	margin-right: ;
 }
 
 .main .yyy .big-albums .big-album .overlay{
@@ -68,8 +66,8 @@
 	font-weight: bold;
 	padding-right: 3px;
 	padding-left: 3px;
-	left: 363px;
-	top:212px;
+	left: 368px;
+	top:214px;
 }	
 
 .main .yyy .big-albums .big-album-info-name,
@@ -116,6 +114,14 @@
 
 .main .yyy .big-albums {
 	display: flex;
-	align-items: flex-start;
-	
+	width: auto;
+	margin-top: 14px; 
+}
+
+.main .yyy .big-albums .big-album-wrapper{
+	margin-right: 20px;
+}
+
+a{
+	font-size: 14px;
 }

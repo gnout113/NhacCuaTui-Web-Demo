@@ -1,0 +1,117 @@
+.main .yyy .small-albums {
+	margin-top: 14px;
+}
+
+.main .yyy .small-albums .small-album-wrapper {
+	height: auto;
+	width: 195px;
+}
+
+.main .yyy .small-albums .small-album {
+	position: relative;
+	width: 195px;
+	height: 109px;
+	display: inline-block;
+	margin-bottom: 10px; 
+}
+
+.main .yyy .small-albums .small-album .overlay{
+	background-color: rgb(0,0,0);
+	width: 195px;
+	height: 109px;
+	padding: 0;
+	margin:0;
+	position: absolute;
+	top: 0;
+	opacity: 0;
+	transition: all 0.3s;
+}
+
+.main .yyy .small-albums .small-album .count {
+	width: 160px;
+	text-align: right;
+	background: rgb(0,0,0);
+	background: linear-gradient(90deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 45%, rgba(0,0,0,0.5298494397759104) 66%, rgba(0,0,0,0.6502976190476191) 100%);
+	color: white;
+	padding-right: 5px;
+	box-sizing: border-box;
+	position: absolute;
+	right: 0;	
+	top:0;
+}
+
+.main .yyy .small-albums .small-album-wrapper .small-album:hover #play-btn {
+	opacity: 1;
+}
+
+.main .yyy .small-albums .small-album-wrapper .small-album:hover .overlay{
+	opacity: 0.3;
+}
+
+.main .yyy .small-albums .small-album #play-btn {
+	top: 37px;
+	left: 74px;
+}
+
+.main .yyy .small-albums .small-album .duration{
+	width: auto;
+	display: inline-block;
+	position: absolute;
+	background: rgba(0,0,0,0.65);
+	box-sizing: border-box;
+	text-align: center;
+	color: white;
+	font-weight: bold;
+	padding-right: 3px;
+	padding-left: 3px;
+	left: 153px;
+	top: 93px;
+}
+
+.main .yyy .small-albums .small-album-info-name,
+.main .yyy .small-albums .small-album-info-singer{
+	height: auto;
+	width: auto;
+}
+
+.main .yyy .small-albums .small-album-info-name .small-album-name{
+	font-size: 14px;
+	font-weight: 400;
+	transition: color 0.3s;
+}
+
+.main .yyy .small-albums .small-album-info-name .small-album-name:hover {
+	color: #43A1F4;
+}
+
+.main .yyy .small-albums .small-album-info-singer .small-album-singer {
+	font-size: 12px;
+	font-weight: 400;
+	transition: color 0.3s;
+	color: #b3b3b3;
+
+}
+
+.main .yyy .small-albums .small-album-info-singer .small-album-singer:hover {
+	color: #43A1F4;
+}
+
+.main .yyy .small-albums {
+	display: flex;
+	width: 410px;
+	justify-content:space-between ;
+}
+
+.main {
+	margin-right: 0;
+}
+
+.main .yyy .small-albums {
+	width: 410px;
+	height: auto;
+	margin-right: 20px;
+}
+
+.main .yyy .small-albums-container{
+	display:flex;
+}
