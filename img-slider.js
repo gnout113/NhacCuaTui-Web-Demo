@@ -2,7 +2,7 @@ var nav = document.getElementsByClassName('a-nav');
 	var show = document.getElementsByClassName('show-child');
 	nav[0].style.border = "5px solid orange";
 	show[0].style.visibility = "visible";
-	var count = 0 ;
+	var count1 = 0 ;
 
 	nav[0].firstChild.addEventListener("mouseover", mouseOver);
 	nav[1].firstChild.addEventListener("mouseover", mouseOver);
@@ -20,20 +20,20 @@ var nav = document.getElementsByClassName('a-nav');
 			show[i].style.visibility = "hidden";
 		}
 		show[index].style.visibility = "visible";
-		count = index;
+		count1 = index;
 	}
 
 	setInterval(function(){
-		nav[count].style.border = "5px solid orange";
-		show[count].style.visibility = "visible";
+		nav[count1].style.border = "5px solid orange";
+		show[count1].style.visibility = "visible";
 		for (var i = 0 ; i < 5 ; i++){
-			if (i !== count){
+			if (i !== count1){
 				nav[i].style.border = "none";
 				show[i].style.visibility = "hidden";
 			}
 		}
-		count++;
-		if (count === 5){
-			count = 0 ;
+		count1++;
+		if (count1 === 5){
+			count1 = 0 ;
 		}
 	}, 5000);

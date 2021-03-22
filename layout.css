@@ -15,7 +15,8 @@ body {
 	justify-content: center;
 	grid-template-areas: "header"
 						 "mid"
-						 "footer";		
+						 "footer";	
+	grid-row-gap: 30px;	
 }
 
 .wrapper .mid {
@@ -26,13 +27,12 @@ body {
 }
 
 .wrapper .mid .main {
-	width: 840px;
+	width: 71.7%;
 }
 
 .wrapper .mid .sidebar {
-	width: 300px;
+	width: 25.6%;
 }
-
 
 
 

@@ -2,7 +2,7 @@ var singerImg = document.getElementsByClassName('singer-img-child');
 	var singerAva = document.getElementsByClassName('singer-ava-child');
 	var singerName = document.getElementById('singer-name');
 	var singerNames = ['Bird', 'Monkey', 'Tiger', 'Dog', 'Cat'];
-	var count = 0;
+	var count2 = 0;
 
 	singerImg[0].style.opacity = "1";
 	singerImg[0].style.visibility = "visible";
@@ -16,13 +16,13 @@ var singerImg = document.getElementsByClassName('singer-img-child');
 			singerImg[i].style.visibility = "hidden";
 			singerAva[i].lastChild.style.border = 'none'
 		}
-		singerImg[count].style.opacity = "1";
-		singerImg[count].style.visibility = "visible";
-		singerName.innerHTML  = singerNames[count];
-		singerAva[count].lastChild.style.border = '1px solid #43A1F4';
-		count++;
-		if (count > 4){
-			count = 0;
+		singerImg[count2].style.opacity = "1";
+		singerImg[count2].style.visibility = "visible";
+		singerName.innerHTML  = singerNames[count2];
+		singerAva[count2].lastChild.style.border = '1px solid #43A1F4';
+		count2++;
+		if (count2 > 4){
+			count2 = 0;
 		}
 	},5000);
 
@@ -43,5 +43,5 @@ var singerImg = document.getElementsByClassName('singer-img-child');
 		singerImg[index].style.visibility = "visible";
 		singerName.innerHTML = singerNames[index];
 		singerAva[index].lastChild.style.border = '1px solid #43A1F4';
-		count = index;
+		count2 = index;
 	}
