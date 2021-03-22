@@ -1,0 +1,8 @@
+.sidebar .place-holder img{
+	border-radius: 5px;
+}
+
+.sidebar .place-holder {
+	margin-top: 40px;
+	display: inline-block;
+}

@@ -1,0 +1,16 @@
+.sidebar .hot-topic {
+	margin-top: 40px;
+}
+
+.sidebar .hot-topic a:first-child {
+	font-weight: 400;
+	color: #2daaed;
+	font-size: 26px;
+	margin-bottom: 14px;
+	display: inline-block;
+}
+
+.sidebar .hot-topic a:not(:first-child) {
+	display: inline-block;
+	margin-bottom: 14px;
+}

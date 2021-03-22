@@ -9,6 +9,12 @@
 	<link rel="stylesheet" type="text/css" href="./big-albums.css">
 	<link rel="stylesheet" type="text/css" href="./small-albums.css">
 	<link rel="stylesheet" type="text/css" href="./bai-hat.css">
+	<link rel="stylesheet" type="text/css" href="./sidebar-slider.css">
+	<link rel="stylesheet" type="text/css" href="./img-slider.css">
+	<link rel="stylesheet" type="text/css" href="./hot-topic.css">
+	<link rel="stylesheet" type="text/css" href="./place-holder.css">
+	<link rel="stylesheet" type="text/css" href="./bxh-songs.css">
+	<link rel="stylesheet" type="text/css" href="./bxh-mvs.css">
 	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
 	<LINK REL="SHORTCUT ICON"  HREF="./smile.svg">
 </head>
@@ -334,7 +340,26 @@
 			</ul>
 		</div>
 
+		<div class="mid">
+
 		<div class="main">
+			<div class="img-slider">
+				<div class="show">
+					<a href="#" class="show-child"><img src="./img1/1.jpg"/></a>
+					<a href="#" class="show-child"><img src="./img1/2.jpg"/></a>
+					<a href="#" class="show-child"><img src="./img1/3.jpg"/></a>
+					<a href="#" class="show-child"><img src="./img1/4.jpg"/></a>
+					<a href="#" class="show-child"><img src="./img1/5.jpg"/></a>
+				</div>
+				<div class="nav">
+					<a href="#" class="a-nav"><img src="./img1/1.jpg" data-id="0"/></a>
+					<a href="#" class="a-nav"><img src="./img1/2.jpg" data-id="1"/></a>
+					<a href="#" class="a-nav"><img src="./img1/3.jpg" data-id="2"/></a>
+					<a href="#" class="a-nav"><img src="./img1/4.jpg" data-id="3"/></a>
+					<a href="#" class="a-nav"><img src="./img1/5.jpg" data-id="4"/></a>
+				</div>
+			</div>
+
 			<div class="xxx">
 				<a href="#" class="title">NGHE GÌ HÔM NAY ></a>
 				<div class="whole-covers">
@@ -415,7 +440,7 @@
 					</div>
 
 					<div>
-						<div class="whole-cover">
+						<div class="whole-cover" id="aaaa">
 							<a href="#" class="cover" title="Lorem ispum">
 								<img src="https://loremflickr.com/152/152/girls"/>
 
@@ -1627,9 +1652,108 @@
 
 			</div>
 		</div>
-		<div class="sidebar">sidebar</div>
+		<!-- --------------------------------------------------------------------- -->
+		<div class="sidebar">
+			
+			<div class="sidebar-slider">
+				<div class="singer-img">
+					<a href="#" class="singer-img-child"><img src="./img2/0.jpg"></a>
+					<a href="#" class="singer-img-child"><img src="./img2/1.jpg"></a>
+					<a href="#" class="singer-img-child"><img src="./img2/2.jpg"></a>
+					<a href="#" class="singer-img-child"><img src="./img2/3.jpg"></a>
+					<a href="#" class="singer-img-child"><img src="./img2/4.jpg"></a>
+				</div>
+
+				<div class="sidebar-slider-overlay"></div>
+
+				<div class="slider-wrapper">
+					<span>Top Nghệ Sĩ Trending Trong Tuần</span>
+					<a href="#" id="singer-name"></a>
+					<div class="singer-ava">
+						<a href="#" class="singer-ava-child"><img src="./img2/0.jpg" data-id="0"></a>
+						<a href="#" class="singer-ava-child"><img src="./img2/1.jpg" data-id="1"></a>
+						<a href="#" class="singer-ava-child"><img src="./img2/2.jpg" data-id="2"></a>
+						<a href="#" class="singer-ava-child"><img src="./img2/3.jpg" data-id="3"></a>
+						<a href="#" class="singer-ava-child"><img src="./img2/4.jpg" data-id="4"></a>
+					</div>
+				</div>
+			</div>
+
+			<a href="#" class="place-holder"><img src="./place-holder.jpg" width="300" height="220"/></a>
+
+			<div class="hot-topic">
+				<a href="#">CHỦ ĐỀ HOT ></a>
+				<a href="#"><img src="./img3/0.jpg"></a>
+				<a href="#"><img src="./img3/1.jpg"></a>
+				<a href="#"><img src="./img3/2.jpg"></a>
+				<a href="#"><img src="./img3/3.jpg"></a>
+				<a href="#"><img src="./img3/4.jpg"></a>
+			</div>
+
+			<div class="bxh-song-wrapper">
+				<div class="bxh-title">
+					<a href="#" title="BXH BÀI HÁT">BXH BÀI HÁT</a>
+					<a href="#" title="BXH BÀI HÁT"><i class="far fa-play-circle"></i></a>
+				</div>
+
+				<div class="bxh-area">
+					<div title="Việt Nam" data-area="0">Việt Nam</div>
+					<div title="Âu Mỹ" data-area="1">Âu Mỹ</div>
+					<div title="Hàn Quốc" data-area="2">Hàn Quốc</div>
+				</div>
+				<div class="bxh-songs">
+					<div class="first-rank">
+						<div class="rank-img"><img src="https://picsum.photos/100"></div>
+						<div class="rank-number">1</div>
+						<div class="rank-info"></div>
+					</div>
+				</div>
+			</div>
+
+			<div class="bxh-mv-wrapper">
+		<div class="bxh-title">
+			<a href="#" title="BXH MV">BXH MV</a>
+			<a href="#" title="BXH MV"><i class="far fa-play-circle"></i></a>
+		</div>
+
+		<div class="bxh-area">
+			<div title="Việt Nam" data-area1="0">Việt Nam</div>
+			<div title="Âu Mỹ" data-area1="1">Âu Mỹ</div>
+			<div title="Hàn Quốc" data-area1="2">Hàn Quốc</div>
+		</div>
+
+		<div class="bxh-mvs">
+			<div class="first-rank">
+				<a href="#" class="rank-img">
+					<img src="https://picsum.photos/300/168">
+					<div class="overlay"></div>
+					<div class="play-btn">
+						<i class="fal fa-play-circle fa-3x"></i>
+					</div>
+				</a>
+				<div class="rank-number">1</div>
+				<div class="rank-info">
+					
+				</div>
+			</div>
+
+		</div>
+
+	</div>
+
+		</div>
+
+		
+		<!-- --------------------------------------------------------------------- -->
+		</div>
+		
 		<div class="footer">footer</div>
 	</div>
+
+	<script src="./img-slider.js"></script>
+	<script src="./sidebar-slider.js"></script>
+	<script src="./bxh-songs.js"></script>
+	<script src="./bxh-mvs.js"></script>
 </body>
 
 </html>

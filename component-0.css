@@ -51,15 +51,15 @@
 
 .main .whole-covers{
 	display: flex;
-	justify-content: flex-start;
+	justify-content: space-between;
 	margin-top: 0.875rem;
+	width: 840px;
 }
 
 .main .whole-cover {
 	display: flex;
 	flex-direction: column;
 	flex-grow: 1;
-	margin-right: 20px;
 }
 
 .main .title {

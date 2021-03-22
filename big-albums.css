@@ -114,14 +114,19 @@
 
 .main .yyy .big-albums {
 	display: flex;
-	width: auto;
+	width: 840px;
 	margin-top: 14px; 
+	justify-content: space-between;
 }
 
-.main .yyy .big-albums .big-album-wrapper{
+/*.main .yyy .big-albums .big-album-wrapper{
 	margin-right: 20px;
 }
-
+*/
 a{
 	font-size: 14px;
+}
+
+ul {
+	padding: 0;
 }

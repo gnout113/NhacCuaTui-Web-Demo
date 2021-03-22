@@ -12,6 +12,7 @@ a{
 	text-decoration:none;
 	text-align: center;
 	font-weight: 400;
+	color: black;
 }
 
 li {
@@ -61,7 +62,7 @@ a:active{
 
 input[type=text]{
 	border: none;
-	width: 14rem;
+	width: 213.5px;
 	background-color: #e0e0e0;
 	border-radius: 35px;
 }
