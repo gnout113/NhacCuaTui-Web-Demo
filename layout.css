@@ -22,7 +22,7 @@ body {
 .wrapper .mid {
 	justify-self: center; 
 	display: flex;
-	width: 1171px;
+	width: 1170px;
 	justify-content: space-between;
 }
 
